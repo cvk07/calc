@@ -6,47 +6,7 @@ border: 1px solid black; border-collapse: collapse;
 th, td { padding: 5px; text-align: left;
 }
 </style>
-<h1>My First App - Calculator</h1>
-<table style="width:100%">
-<caption>Calculator POC</caption>
-<tr>
-<th>First Number</th>
-<th>Second Number</th>
-<th>Type</th>
 
-</tr>
-<tr>
-<td><input type="text" id="fnumber" name="FirstNumber"></td>
-<td><input type="text" id="snumber" name="SecondNumber"></td>
-<td>
-<select id="ddltype">
-<option value="Add" selected="selected">Add</option>
- 
-
- 
-
-
-
-
-
-
-
-
-
-</tr>
- 
-
-<option value="Sub">Substraction</option>
-<option value="Mul">Multiplication</option>
-<option value="Divd">Divide</option>
-</select>
-</td>
- 
-
-</table>
-</br>
-<button id="btn" type="button" onclick="myFunction()" style="margin- left:45%">Calculate</button>
-<h3 id="resultview" style="margin-left:40%;"></h3>
 <script>
 function myFunction() {
 var fnum= document.getElementById("fnumber").value; var snum= document.getElementById("snumber").value; var result;
